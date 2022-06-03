@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uni>
+	<horario ides="1"> 
+        <hora1>07h30 a 09h30</hora1>
+        <hora2>09h30 a 11h30</hora2>
+        <hora3>11h30 a 13h30</hora3>
+        <uno>Simulación</uno>
+        <dos>Fundamentos de redes de comunicaciones</dos>
+        <tres>Sistemas digitales</tres>
+        <cuatro>Desarrollo basado en plataformas</cuatro>
+        <cinco>Análisis numérico</cinco>
+    </horario>
+</uni>

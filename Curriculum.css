@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black; 
+    font-family: "Roboto", sans-serif;    
+}
+
+.datos  {
+    background: white;
+    width: 60%;
+    margin: 20px auto;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    padding: 20px 0;
+    transition: width 2s;
+}
+
+.datos h1 {
+    text-align: center;
+    margin: 10px;
+    color: rgb(51, 209, 3);
+}
+
+.datos .dato {
+    width: 80%;
+    margin: auto;
+    padding-left: 20px;
+}
+
+.datos .dato div{
+    display: flex;
+    align-items: center;
+}
+
+.datos .dato div p {
+   margin-top: 25px;
+   margin-left: 5px;
+}
+
+h3 {
+    margin: 5px 0 5px 5px;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+div.eti{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+} 
+
+.etiqueta {  
+    color: red;
+}
+
+#btnd {
+    color: black;
+}
+
+/*
+.total {
+    position: absolute;
+    top: 1295px;
+    left: 500px;
+}
+*/
+
+#btnd {
+    background: rgba(5, 211, 226, 0.301);
+}
+
+.nu {
+    margin-left: 10px;
+}
+
+
+
+
+

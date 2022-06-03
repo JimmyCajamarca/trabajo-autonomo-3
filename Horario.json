@@ -1,0 +1,26 @@
+[
+    {
+        "hora": "07h30 a 09h30",
+        "lunes": "Simulación",
+        "martes": "Fundamentos de redes de comunicaciones",
+        "miercoles": "Sistemas digitales",
+        "jueves": "Desarrollo basado en plataformas",
+        "viernes": "Desarrollo basado en plataformas"
+    },
+    {
+        "hora": "09h30 a 11h30",
+        "lunes": "Análisis numérico",
+        "martes": "Desarrollo basado en plataformas",
+        "miercoles": "Análisis numérico",
+        "jueves": "Fundamentos de redes de comunicaciones",
+        "viernes": "Simulación"
+    },
+    {
+        "hora": "11h30 a 13h30",
+        "lunes": "Sistemas digitales",
+        "martes": "Análisis numérico",
+        "miercoles": "Desarrollo basado en plataformas",
+        "jueves": "Simulación",
+        "viernes": "Sistemas digitales"
+    }
+]

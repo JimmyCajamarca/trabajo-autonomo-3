@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    /*background: url('https://i.pinimg.com/736x/c5/58/e1/c558e149c8818137d286cf1a4ea90b05.jpg') no-repeat center center/cover;
+    */  
+}
+
+.titu { 
+    color: white; 
+    margin: auto;
+}
+
+input[type="text"], input[type="password"]{
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    margin: 20px auto;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    color: #fff;
+    background: black;
+    width: 320px;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: green;
+}
+
+header {
+    border-bottom: 2px solid #eee;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #333;
+}
+
+.escribir {
+    position: relative;
+    color: red;
+    font-size: 20px;
+}
+
+.escribir::after {
+    content: "";
+    border-left: 2px solid black;
+    background: white;
+    right: 0;
+    height: 100%;
+    position: absolute;
+    animation: escribir 3s infinite alternate steps(10);
+}
+
+@keyframes escribir {
+    from {
+        width: 100%;
+    } to {
+        width: 0;
+    }
+}
+
+.contenido {
+    position: relative;
+    z-index: 2;
+}
+
+#todo {
+    min-height: 100vh;
+    position: relative;
+
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 2;
+    mix-blend-mode: overlay;
+}
+
+/*
+Carrusel de imagenes
+*/
+.imagenes {
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 20px;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.contenido {
+    position: relative;
+    width: 750px;
+    height: 300px;
+}
+
+ul.contenido li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    background-color: white;
+    transition: opacity .5s;
+}
+
+ul.contenido li img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+ul.contenido li:first-child{
+    opacity: 1;
+}
+
+ul.contenido li:target{
+    opacity: 1;
+}
+
+.menu {
+    text-align: center;
+    margin: auto;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(17, 117, 101);
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+/*
+Reproductor de audio
+*/
+
+.reproductor {
+    margin: auto;
+    background: linear-gradient(30deg, rgba(0,0,0,0.65), rgba(0,0,0,0.85));
+    backdrop-filter: blur(10px);
+    height: fit-content;
+    width: 35vw;
+    border-radius: 10px;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.35);
+}
+
+.musica {  
+    width: 80%;
+    height: 80%;
+    width: fit-content;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.titulo {
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+
+
+.autor {   
+    font-size: 12px;
+    color: rgb(167, 167, 167);
+    letter-spacing: 0.1px;
+}
+
+.audio {
+    display: none;
+}
+
+div.panel {
+    background: white;
+    width: 30%;
+    margin: 20px auto;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    padding: 20px 0;
+}

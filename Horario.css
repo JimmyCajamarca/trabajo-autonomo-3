@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    /*background: url('https://i.pinimg.com/736x/c5/58/e1/c558e149c8818137d286cf1a4ea90b05.jpg') no-repeat center center/cover;
+    */
+    background: black;
+}
+
+table {
+    table-layout: fixed;
+    width: 750px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+thead.negro {
+    text-align: center;
+    margin: auto;   
+    background: black;
+    color: white;
+}
+
+div.panel {
+    background: white;
+    width: 65%;
+    margin: 20px auto;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+.hora {
+    background: #0e7951;
+    color: white;
+}
+
+.a {
+    background: #06baca;
+    color: white;
+} 
+
+.b {
+    background: #07ce32;
+    color: white;
+} 
+
+.c {
+    background: #413796;
+    color: white;
+} 
+
+.d {
+    background: #5c631d;
+    color: white;
+} 
+
+.e {
+    background: #ac4323;
+    color: white;
+} 
+
+.btn {
+    padding: 20px;
+    border-radius: 90px;
+    cursor: pointer;
+    height: 40px;
+    width: 20%;
+    margin: auto;
+    background: #06ca6f;
+    transition: width 2s;
+
+}
+
+.btn:hover {
+    width: 110px;
+}
+
+table.contenido {
+    text-align: center;
+    color: white;
+    background-color: #413796;
+    table-layout: fixed;
+    width: 750px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+tr {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}

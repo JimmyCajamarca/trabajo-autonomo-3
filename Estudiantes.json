@@ -1,0 +1,65 @@
+{
+
+		"estudiante": [
+			{
+				"cedula": {
+					"_genero": "masculino",
+					"_matriculado": "si",
+					"_id": "6843",
+					"__text": "1104462856"
+				},
+				"nombre": "Jimmy",
+				"apellido": "Cajamarca",
+				"celular": "0959020466",
+				"pagos": {
+					"cantidad": "10",
+					"fecha": "25/05/22",
+					"tipo": "efectivo",
+					"hora": "10:42",
+					"_lugar": "oficina",
+					"_id": "1"
+				},
+				"_ides": "1"
+			},
+			{
+				"cedula": {
+					"_genero": "masculino",
+					"_matriculado": "si",
+					"_id": "6843",
+					"__text": "1424482856"
+				},
+				"nombre": "Michael",
+				"apellido": "Ruano",
+				"celular": "0959020466",
+				"pagos": {
+					"cantidad": "10",
+					"fecha": "25/05/22",
+					"tipo": "efectivo",
+					"hora": "10:42",
+					"_lugar": "oficina",
+					"_id": "1"
+				},
+				"_ides": "2"
+			},
+			{
+				"cedula": {
+					"_genero": "masculino",
+					"_matriculado": "no",
+					"_id": "6843",
+					"__text": "1124482856"
+				},
+				"nombre": "Sofia",
+				"apellido": "Cuenca",
+				"celular": "0959020466",
+				"pagos": {
+					"cantidad": "10",
+					"fecha": "25/05/22",
+					"tipo": "efectivo",
+					"hora": "10:42",
+					"_lugar": "oficina",
+					"_id": "1"
+				},
+				"_ides": "3"
+			}
+		]
+}

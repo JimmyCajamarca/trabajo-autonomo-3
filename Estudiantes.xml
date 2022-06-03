@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ESTUDIANTES>
+    <caracteristicas>
+        <cedula>1104462856</cedula>
+        <nombre>Jimmy</nombre>
+        <apellido>Cajamarca</apellido>
+        <carrera>Telecomunicaciones</carrera> 
+    </caracteristicas>
+<caracteristicas><cedula>1298793237</cedula><nombre>Juan</nombre><apellido>Pérez</apellido><carrera>Sistemas</carrera></caracteristicas><caracteristicas><cedula>8323899320</cedula><nombre>María</nombre><apellido>Cueva</apellido><carrera>Telecomunicaciones</carrera></caracteristicas><caracteristicas><cedula>9837482392</cedula><nombre>Angel</nombre><apellido>Cuenca</apellido><carrera>Medicina</carrera></caracteristicas><caracteristicas><cedula>1287872723</cedula><nombre>Mario</nombre><apellido>Salazar</apellido><carrera>Derecho</carrera></caracteristicas><caracteristicas><cedula>1982973273</cedula><nombre>Alexander</nombre><apellido>Vicente</apellido><carrera>Ing. Industrial</carrera></caracteristicas><caracteristicas><cedula>9873289090</cedula><nombre>Alexander</nombre><apellido>Taday</apellido><carrera>Ing. Agrícola</carrera></caracteristicas><caracteristicas><cedula>1276366287</cedula><nombre>Javier</nombre><apellido>Armijos</apellido><carrera>Arquitectura</carrera></caracteristicas><caracteristicas><cedula>1287782395</cedula><nombre>Josue</nombre><apellido>Sauca</apellido><carrera>Computación</carrera></caracteristicas></ESTUDIANTES>
